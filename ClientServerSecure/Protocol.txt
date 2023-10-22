@@ -1,0 +1,9 @@
+RESPONSE_TYPE={0:OK,1:PATH_INVALID,2:FILE_ALREADY_EXISTS,3:OPERATION_ABORTED} -> 1 byte
+Clinet trimite: size-ul 1 byte
+Client trimite: ASCII string
+Server raspunde cu RESPONSE_TYPE
+REPETA
+	Clientul trimite size-ul 1 byte 
+	Clientul trimite chunk-ul byte[] de cat era size-ul
+	Serverul raspunde cu RESPONSE_TYPE
+PANA CAND size este de 0

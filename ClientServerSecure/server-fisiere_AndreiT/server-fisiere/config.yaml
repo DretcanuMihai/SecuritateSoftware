@@ -1,0 +1,3 @@
+directoryPath: hello # Directorul in care va scrie fisierele
+addr: 127.0.0.1:25565 # adresa si portul pe care va asculta
+timeout: 20 # dupa cate secunde va da timeout la conexiunea pe client
